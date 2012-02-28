@@ -44,6 +44,7 @@ if __name__ == "__main__":
         type = sys.argv[2]
     else:
         print "Usage: collectingData path type"
+        exit()
         
     #checking the input
     if not os.path.exists(path):    
